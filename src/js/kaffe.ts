@@ -1,7 +1,7 @@
     /**
      * Base klassen Kaffe som alle andre kaffeklasser trækker fra. 
      */
-abstract class Kaffe {
+export abstract class Kaffe {
     public Rabat:number;
     /**
      * abstract Pris, hvad kaffen koster.
@@ -18,7 +18,7 @@ abstract class Kaffe {
     /**
      * Kaffens styrke
      */
-    public Styrke() : string {
+    Styrke() : string {
      return "Mild";   
     }
 }
